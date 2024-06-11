@@ -63,7 +63,7 @@
 
 
 
-.tooltip {
+.mytooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
@@ -71,7 +71,7 @@
 }
 
 
-.tooltip .tooltiptext {
+.mytooltip .tooltiptext {
 
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -87,13 +87,13 @@
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    bottom: 150%;
+    bottom: 100%;
     left: 50%;
     margin-left: -50px;
 }
 
 
-.tooltip:hover > .tooltiptext {
+.mytooltip:hover .tooltiptext {
 
     animation: fadeIn 1s;
     visibility: visible;
@@ -121,4 +121,24 @@
         opacity: 0;
         visibility: hidden;
     }
+}
+
+
+
+.modal-title{
+    color: rgb(0, 136, 255);
+}
+
+.modal-body{
+    color: black;
+}
+
+.modal{
+    background-color: black;
+}
+
+
+#addresslink{
+    color: blue;
+    font-size:smaller
 }
